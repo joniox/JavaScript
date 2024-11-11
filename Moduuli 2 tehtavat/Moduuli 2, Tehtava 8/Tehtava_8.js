@@ -14,7 +14,7 @@
 const ramones = ["Johnny", "DeeDee", "Joey", "Marky"];
 
 function concat(array) {
-  return array.join(""); // Joins array elements into a single string with no separators
+  return array.join("");
 }
 
 document.querySelector('#target').innerHTML = concat(ramones);
